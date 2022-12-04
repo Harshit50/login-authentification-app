@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HomePage = () => {
+const Home = () => {
   return (
     <section className="bg-gradient-to-r from-sky-300 to-indigo-700">
         <div className="px-6 mx-auto h-screen pt-6">
@@ -22,4 +22,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default Home
