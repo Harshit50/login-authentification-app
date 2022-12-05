@@ -170,7 +170,7 @@ app.get('/students', async (req, res) => {
         res.status(200).json(dt);
         console.log(dt);
     } catch (error) {
-        console.log('koi error hai');
+        console.log(' error ');
         res.status(404).json({message: 'student not found'});
     }
 })
